@@ -1,21 +1,53 @@
-@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+:root {
+	font-size: 20px;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
 
+body{
+	margin: 0;
+}
+
+h1 {
+	text-align: center; 
+	color: #197BBD;
+}
+
+h2 {
+	border-left: #006a4e solid .3em;
+	padding-left: .5em;
+	color: #125E8A;
+}
+
+h3 {
+	color: #204B57;
+}
+
+section {
+	padding-left: 1.5em; 
+	padding-right: 1.5em;
+}
+
+footer {
+	background-color: #050A30;
+	padding-left: 1.5em; 
+	padding-right: 1.5em;
+}
 code {
-		background-color: #eee;
+		background-color: #e8e8e8;
 		border-radius: 3px;
 		padding: 0 3px;
 	}
 
-	kbd {
-		background-color: #eee;
-		border-radius: 3px;
-		border: 1px solid #b4b4b4;
-		box-shadow: 0 1px 1px rgba(0, 0, 0, .2), 0 2px 0 0 rgba(255, 255, 255, .7) inset;
-		color: #333;
-		display: inline-block;
-		font-size: .85em;
-		font-weight: 700;
-		line-height: 1;
-		padding: 2px 4px;
-		white-space: nowrap;
-	 }
+kbd {
+	background-color: #eee;
+	border-radius: 3px;
+	border: 1px solid #b4b4b4;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, .2), 0 2px 0 0 rgba(255, 255, 255, .7) inset;
+	color: #333;
+	display: inline-block;
+	font-size: .85em;
+	font-weight: 700;
+	line-height: 1;
+	padding: 2px 4px;
+	white-space: nowrap;
+	}
